@@ -45,7 +45,7 @@ const App = () => {
     <>
       <form onSubmit={handleSubmit}>
         <TextField
-          label="name"
+          label="candy name"
           name="name"
           onChange={handleChange}
         />
@@ -69,7 +69,7 @@ const App = () => {
       <Table stickyHeader aria-label="sticky table">
         <TableHead>
           <TableRow>
-            <TableCell>Name</TableCell>
+            <TableCell>Candy Name</TableCell>
             <TableCell>Price</TableCell>
             <TableCell>Number</TableCell>
           </TableRow>
